@@ -11,7 +11,6 @@ import mysql.connector as c
 root = Tk()
 root.geometry("1366x768")
 root.title("My Store Manager")
-#root.iconbitmap(r'grocery store.ico')
 root.configure(bg = "beige")
 groceryStore = Label(root, text = "GROCERY STORE",fg = "black",bg = "beige", font = "Gabriola 45 bold")
 groceryStore.place(x= 625,y =87)
